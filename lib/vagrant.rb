@@ -9,6 +9,8 @@ class Log4r::BasicFormatter
   end
 end
 
+puts "Hello World"
+
 # Add our patches to net-ssh
 require "vagrant/patches/net-ssh"
 

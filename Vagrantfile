@@ -10,7 +10,8 @@ Vagrant.configure("2") do |config|
 
   ["vmware_desktop", "virtualbox", "hyperv"].each do |provider|
     config.vm.provider provider do |v, override|
-      v.memory = "2048"
+      v.memory = "8192"
+      v.cpus = "4"
     end
   end
 

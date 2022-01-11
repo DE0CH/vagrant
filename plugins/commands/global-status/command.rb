@@ -4,7 +4,7 @@ module VagrantPlugins
   module CommandGlobalStatus
     class Command < Vagrant.plugin("2", :command)
       def self.synopsis
-        "outputs status Vagrant environments for this user"
+        "outputs status Vagrant environments for this user" 
       end
 
       def execute
